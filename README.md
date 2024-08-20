@@ -75,4 +75,7 @@ Para contribuir com o projeto, siga as etapas abaixo::
 4. Abra um Pull Request no GitHub e descreva suas mudanças.
 
 
+## Padrão de Mensagens de Commit:
+
+Para manter um histórico de commits consistente e compreensível, siga o padrão de mensagens de commit descrito em [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
    
