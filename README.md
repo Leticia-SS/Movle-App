@@ -44,12 +44,12 @@ Para iniciar o servidor de desenvolvimento, utilize um dos comandos abaixo, depe
 1. Usando npm:
    
     ```bash
-    npm start
+    npm run dev
     
 2. Usando Yarn:
 
    ```bash
-   yarn start
+   yarn dev
 
 O projeto estará disponível em http://localhost:3000 (ou outra porta configurada).
 
