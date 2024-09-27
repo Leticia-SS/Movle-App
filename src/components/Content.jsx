@@ -1,9 +1,12 @@
 import Card from "./Card"
+import Background from '../assets/background.svg'
+import './Components.css'
 
 const Content = () => {
     return(
         <main>
             <div className="main-background">
+                
                 <h1>Movle App</h1>
             </div>
             <div>
