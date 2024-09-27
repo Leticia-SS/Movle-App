@@ -3,7 +3,7 @@ import Card from "./Card"
 const Content = () => {
     return(
         <main>
-            <div>
+            <div className="main-background">
                 <h1>Movle App</h1>
             </div>
             <div>
