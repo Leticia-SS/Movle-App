@@ -1,5 +1,4 @@
 import Card from "./Card"
-import Background from '../assets/background.svg'
 import './Components.css'
 
 const Content = () => {
