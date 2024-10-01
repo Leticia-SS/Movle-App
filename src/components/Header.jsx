@@ -1,25 +1,24 @@
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
-import { faTicketSimple } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTicketSimple } from "@fortawesome/free-solid-svg-icons";
+import "./Header.css";
 
 const Header = () => {
-    return(
+  return (
     <>
-    <header>
-        <nav className='menu-card'>
-        <button>
-        <FontAwesomeIcon icon={faTicketSimple} />            
-        </button>
-            <ul>
-                <li>Início</li>
-                <li>Modos de Jogo</li>
-                <li>Sobre</li>
-            </ul>
+      <header>
+        <nav className="menu-card">
+          <button>
+            <FontAwesomeIcon icon={faTicketSimple} />
+          </button>
+          <ul>
+            <li>Início</li>
+            <li>Modos de Jogo</li>
+            <li>Sobre</li>
+          </ul>
         </nav>
-    </header>
-
+      </header>
     </>
-    )
-}
+  );
+};
 
-export default Header
+export default Header;
